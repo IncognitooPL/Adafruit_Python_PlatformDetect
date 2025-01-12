@@ -292,7 +292,7 @@ class Chip:
             return chips.H616
 
         if self.detector.check_dt_compatible_value("sun50iw9"):
-            return chips.H616
+            return chips.H618
 
         if self.detector.check_dt_compatible_value("sun50i-h6"):
             return chips.H6
