@@ -450,6 +450,8 @@ class Board:
             board = boards.ORANGE_PI_ZERO_PLUS_2H5
         elif board_value == "orangepizeroplus":
             board = boards.ORANGE_PI_ZERO_PLUS
+        elif board_value == "orangepizero2w":
+            board = boards.ORANGE_PI_ZERO_2W
         elif board_value == "orangepizero2":
             board = boards.ORANGE_PI_ZERO_2
         elif board_value == "nanopiair":
